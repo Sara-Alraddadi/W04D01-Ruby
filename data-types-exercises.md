@@ -11,6 +11,7 @@
 ```
 ```text
 Your answer.
+8
 ```
 
 ```rb
@@ -18,6 +19,7 @@ Your answer.
 ```
 ```text
 Your answer.
+144
 ```
 
 ```rb
@@ -25,6 +27,8 @@ Your answer.
 ```
 ```text
 Your answer.
+"a milli a millia milli a millia milli a milli"
+
 ```
 
 ```rb
@@ -32,6 +36,7 @@ Your answer.
 ```
 ```text
 Your answer.
+gives an error as we cant multiply a string with a number  
 ```
 
 ```rb
@@ -40,6 +45,11 @@ puts "My favorite number is: " + my_favorite_number
 ```
 ```text
 Your answer.
+gives an error 
+fixed 
+
+my_favorite_number = 13
+puts "My favorite number is: " + my_favorite_number.to_s
 ```
 
 ```rb
@@ -48,6 +58,7 @@ puts "My favorite number is: #{my_favorite_number}"
 ```
 ```text
 Your answer.
+My favorite number is: 13
 ```
 
 ### Truthiness and Falsiness
@@ -55,7 +66,7 @@ Your answer.
 #### Which of these evaluate as `false` in Ruby? Mark all that apply.
 
 ```text
-[ ] false
+[x] false
 [ ] 0
 [ ] ""
 [ ] null
@@ -79,6 +90,8 @@ end
 ```
 ```text
 Your answer.
+it prints: My name is: 
+cause it has an empty string 
 ```
 
 ```rb
@@ -89,6 +102,7 @@ end
 ```
 ```text
 Your answer.
+it prints nothing cause no_name = nil
 ```
 
 ```rb
@@ -99,6 +113,7 @@ end
 ```
 ```text
 Your answer.
+gives an error cause no_name is undefined 
 ```
 
 ```rb
@@ -109,6 +124,7 @@ end
 ```
 ```text
 Your answer.
+take the input from the user and print the output with the user input 
 ```
 
 ### Conditionals
