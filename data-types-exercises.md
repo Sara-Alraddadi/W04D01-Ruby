@@ -73,7 +73,7 @@ My favorite number is: 13
 [ ] [ ] (empty array)
 [ ] undefined
 [ ] NaN
-[ ] nil
+[x] nil
 ```
 
 #### What are the outputs and/or side effects of the following code snippets?
