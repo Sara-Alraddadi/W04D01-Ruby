@@ -10,18 +10,22 @@ Access the second value in `planeteers`.
 
 ```rb
 # Your answer here
+puts planeteers[1]
 ```
 
 Add "Heart" to the end of `planeteers`.
 
 ```rb
 # Your answer here
+puts planeteers.push("Heart")
 ```
 
 Remove "Captain Planet" from the array **(without using a method)**.
 
 ```rb
 # Your answer here
+planeteers.delete("Captain Planet")
+puts planeteers
 ```
 
 Combine `planeteers` with `rangers = ["Red", "Blue", "Pink", "Yellow", "Black"]` and save the result in a variable called `heroes`.
