@@ -65,12 +65,22 @@ Select a random element from `heroes` using a method. [The Ruby documentation mi
 
 ```rb
 # Your answer here
+planeteers = ["Earth", "Wind", "Captain Planet", "Fire", "Water"]
+rangers = ["Red", "Blue", "Pink", "Yellow", "Black"]
+ heroes = planeteers + rangers
+ puts random = (heroes).shuffle[0]
+
 ```
 
 Select all elements in `heroes` that begin with "B" using a method. [The Ruby documentation might help](http://ruby-doc.org/core-2.6.1/Array.html).
 
 ```rb
 # Your answer here
+planeteers = ["Earth", "Wind", "Captain Planet", "Fire", "Water"]
+rangers = ["Red", "Blue", "Pink", "Yellow", "Black"]
+ heroes = planeteers + rangers
+ sel = heroes.select { |word| word.start_with?('B') }
+ puts sel
 ```
 
 ### Hashes
@@ -79,6 +89,13 @@ Initialize a hash called `ninja_turtle` with the properties `name`, `weapon` and
 
 ```rb
 # Your answer here
+ninja_turtle = {
+	"name" => "Michelangelo",
+	"weapon" => "Nunchuks",
+	"radical" => true
+}
+
+puts ninja_turtle
 ```
 
 Add a key `age` to `ninja_turtle`. Set it to whatever numerical value you'd like.
