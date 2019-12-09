@@ -32,18 +32,31 @@ Combine `planeteers` with `rangers = ["Red", "Blue", "Pink", "Yellow", "Black"]`
 
 ```rb
 # Your answer here
+
+planeteers = ["Earth", "Wind", "Captain Planet", "Fire", "Water"]
+rangers = ["Red", "Blue", "Pink", "Yellow", "Black"]
+puts heroes = planeteers + rangers
 ```
 
 Alphabetize the contents of `heroes` using a method. [The Ruby documentation might help](http://ruby-doc.org/core-2.6.1/Array.html).
 
 ```rb
 # Your answer here
+planeteers = ["Earth", "Wind", "Captain Planet", "Fire", "Water"]
+rangers = ["Red", "Blue", "Pink", "Yellow", "Black"]
+ heroes = planeteers + rangers
+ puts heroes.sort
 ```
 
 Randomize the contents of `heroes` using a method. [The Ruby documentation might help](http://ruby-doc.org/core-2.6.1/Array.html).
 
 ```rb
 # Your answer here
+planeteers = ["Earth", "Wind", "Captain Planet", "Fire", "Water"]
+rangers = ["Red", "Blue", "Pink", "Yellow", "Black"]
+ heroes = planeteers + rangers
+ puts random = (heroes).shuffle
+
 ```
 
 #### Bonus
